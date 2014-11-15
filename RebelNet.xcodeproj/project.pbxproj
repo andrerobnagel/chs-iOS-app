@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		657CA0CF1A1810F200CEC044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0CE1A1810F200CEC044 /* main.m */; };
+		657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D11A1810F200CEC044 /* AppDelegate.m */; };
+		657CA0D51A1810F200CEC044 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D41A1810F200CEC044 /* ViewController.m */; };
+		657CA0D81A1810F200CEC044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0D61A1810F200CEC044 /* Main.storyboard */; };
+		657CA0DA1A1810F200CEC044 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0D91A1810F200CEC044 /* Images.xcassets */; };
+		657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0DB1A1810F200CEC044 /* LaunchScreen.xib */; };
+		657CA0E91A1810F200CEC044 /* RebelNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0E81A1810F200CEC044 /* RebelNetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		657CA0E31A1810F200CEC044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657CA0C11A1810F200CEC044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 657CA0C81A1810F200CEC044;
+			remoteInfo = RebelNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		657CA0C91A1810F200CEC044 /* RebelNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		657CA0CD1A1810F200CEC044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657CA0CE1A1810F200CEC044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		657CA0D01A1810F200CEC044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		657CA0D11A1810F200CEC044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		657CA0D31A1810F200CEC044 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		657CA0D41A1810F200CEC044 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		657CA0D71A1810F200CEC044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		657CA0D91A1810F200CEC044 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		657CA0DC1A1810F200CEC044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		657CA0E21A1810F200CEC044 /* RebelNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebelNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657CA0E71A1810F200CEC044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657CA0E81A1810F200CEC044 /* RebelNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RebelNetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657CA0C61A1810F200CEC044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CA0DF1A1810F200CEC044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657CA0C01A1810F200CEC044 = {
+			isa = PBXGroup;
+			children = (
+				657CA0CB1A1810F200CEC044 /* RebelNet */,
+				657CA0E51A1810F200CEC044 /* RebelNetTests */,
+				657CA0CA1A1810F200CEC044 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		657CA0CA1A1810F200CEC044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657CA0C91A1810F200CEC044 /* RebelNet.app */,
+				657CA0E21A1810F200CEC044 /* RebelNetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657CA0CB1A1810F200CEC044 /* RebelNet */ = {
+			isa = PBXGroup;
+			children = (
+				657CA0D01A1810F200CEC044 /* AppDelegate.h */,
+				657CA0D11A1810F200CEC044 /* AppDelegate.m */,
+				657CA0D31A1810F200CEC044 /* ViewController.h */,
+				657CA0D41A1810F200CEC044 /* ViewController.m */,
+				657CA0D61A1810F200CEC044 /* Main.storyboard */,
+				657CA0D91A1810F200CEC044 /* Images.xcassets */,
+				657CA0DB1A1810F200CEC044 /* LaunchScreen.xib */,
+				657CA0CC1A1810F200CEC044 /* Supporting Files */,
+			);
+			path = RebelNet;
+			sourceTree = "<group>";
+		};
+		657CA0CC1A1810F200CEC044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				657CA0CD1A1810F200CEC044 /* Info.plist */,
+				657CA0CE1A1810F200CEC044 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		657CA0E51A1810F200CEC044 /* RebelNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				657CA0E81A1810F200CEC044 /* RebelNetTests.m */,
+				657CA0E61A1810F200CEC044 /* Supporting Files */,
+			);
+			path = RebelNetTests;
+			sourceTree = "<group>";
+		};
+		657CA0E61A1810F200CEC044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				657CA0E71A1810F200CEC044 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657CA0C81A1810F200CEC044 /* RebelNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657CA0EC1A1810F200CEC044 /* Build configuration list for PBXNativeTarget "RebelNet" */;
+			buildPhases = (
+				657CA0C51A1810F200CEC044 /* Sources */,
+				657CA0C61A1810F200CEC044 /* Frameworks */,
+				657CA0C71A1810F200CEC044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RebelNet;
+			productName = RebelNet;
+			productReference = 657CA0C91A1810F200CEC044 /* RebelNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		657CA0E11A1810F200CEC044 /* RebelNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657CA0EF1A1810F200CEC044 /* Build configuration list for PBXNativeTarget "RebelNetTests" */;
+			buildPhases = (
+				657CA0DE1A1810F200CEC044 /* Sources */,
+				657CA0DF1A1810F200CEC044 /* Frameworks */,
+				657CA0E01A1810F200CEC044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				657CA0E41A1810F200CEC044 /* PBXTargetDependency */,
+			);
+			name = RebelNetTests;
+			productName = RebelNetTests;
+			productReference = 657CA0E21A1810F200CEC044 /* RebelNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657CA0C11A1810F200CEC044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Andre;
+				TargetAttributes = {
+					657CA0C81A1810F200CEC044 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					657CA0E11A1810F200CEC044 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 657CA0C81A1810F200CEC044;
+					};
+				};
+			};
+			buildConfigurationList = 657CA0C41A1810F200CEC044 /* Build configuration list for PBXProject "RebelNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 657CA0C01A1810F200CEC044;
+			productRefGroup = 657CA0CA1A1810F200CEC044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657CA0C81A1810F200CEC044 /* RebelNet */,
+				657CA0E11A1810F200CEC044 /* RebelNetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657CA0C71A1810F200CEC044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657CA0D81A1810F200CEC044 /* Main.storyboard in Resources */,
+				657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */,
+				657CA0DA1A1810F200CEC044 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CA0E01A1810F200CEC044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657CA0C51A1810F200CEC044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657CA0D51A1810F200CEC044 /* ViewController.m in Sources */,
+				657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */,
+				657CA0CF1A1810F200CEC044 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		657CA0DE1A1810F200CEC044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657CA0E91A1810F200CEC044 /* RebelNetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657CA0E41A1810F200CEC044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 657CA0C81A1810F200CEC044 /* RebelNet */;
+			targetProxy = 657CA0E31A1810F200CEC044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		657CA0D61A1810F200CEC044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657CA0D71A1810F200CEC044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		657CA0DB1A1810F200CEC044 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657CA0DC1A1810F200CEC044 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		657CA0EA1A1810F200CEC044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		657CA0EB1A1810F200CEC044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657CA0ED1A1810F200CEC044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RebelNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		657CA0EE1A1810F200CEC044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RebelNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		657CA0F01A1810F200CEC044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RebelNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RebelNet.app/RebelNet";
+			};
+			name = Debug;
+		};
+		657CA0F11A1810F200CEC044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RebelNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RebelNet.app/RebelNet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657CA0C41A1810F200CEC044 /* Build configuration list for PBXProject "RebelNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657CA0EA1A1810F200CEC044 /* Debug */,
+				657CA0EB1A1810F200CEC044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657CA0EC1A1810F200CEC044 /* Build configuration list for PBXNativeTarget "RebelNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657CA0ED1A1810F200CEC044 /* Debug */,
+				657CA0EE1A1810F200CEC044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		657CA0EF1A1810F200CEC044 /* Build configuration list for PBXNativeTarget "RebelNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657CA0F01A1810F200CEC044 /* Debug */,
+				657CA0F11A1810F200CEC044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657CA0C11A1810F200CEC044 /* Project object */;
+}
