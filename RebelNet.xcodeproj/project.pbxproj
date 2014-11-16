@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		657CA0CF1A1810F200CEC044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0CE1A1810F200CEC044 /* main.m */; };
 		657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D11A1810F200CEC044 /* AppDelegate.m */; };
-		657CA0D51A1810F200CEC044 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D41A1810F200CEC044 /* ViewController.m */; };
+		657CA0D51A1810F200CEC044 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D41A1810F200CEC044 /* HomeViewController.m */; };
 		657CA0D81A1810F200CEC044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0D61A1810F200CEC044 /* Main.storyboard */; };
 		657CA0DA1A1810F200CEC044 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0D91A1810F200CEC044 /* Images.xcassets */; };
 		657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0DB1A1810F200CEC044 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		657CA0CE1A1810F200CEC044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		657CA0D01A1810F200CEC044 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		657CA0D11A1810F200CEC044 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		657CA0D31A1810F200CEC044 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		657CA0D41A1810F200CEC044 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		657CA0D31A1810F200CEC044 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		657CA0D41A1810F200CEC044 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		657CA0D71A1810F200CEC044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		657CA0D91A1810F200CEC044 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		657CA0DC1A1810F200CEC044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				657CA0D01A1810F200CEC044 /* AppDelegate.h */,
 				657CA0D11A1810F200CEC044 /* AppDelegate.m */,
-				657CA0D31A1810F200CEC044 /* ViewController.h */,
-				657CA0D41A1810F200CEC044 /* ViewController.m */,
+				657CA0D31A1810F200CEC044 /* HomeViewController.h */,
+				657CA0D41A1810F200CEC044 /* HomeViewController.m */,
 				657CA0D61A1810F200CEC044 /* Main.storyboard */,
 				657CA0D91A1810F200CEC044 /* Images.xcassets */,
 				657CA0DB1A1810F200CEC044 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				657CA0D51A1810F200CEC044 /* ViewController.m in Sources */,
+				657CA0D51A1810F200CEC044 /* HomeViewController.m in Sources */,
 				657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */,
 				657CA0CF1A1810F200CEC044 /* main.m in Sources */,
 			);
@@ -344,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RebelNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RebelNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
