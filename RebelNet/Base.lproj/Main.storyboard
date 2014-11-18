@@ -250,10 +250,10 @@
             </objects>
             <point key="canvasLocation" x="1498" y="482"/>
         </scene>
-        <!--View Controller-->
+        <!--Parent Portal View Controller-->
         <scene sceneID="hJo-Ft-zLR">
             <objects>
-                <viewController id="D6h-az-W48" sceneMemberID="viewController">
+                <viewController id="D6h-az-W48" customClass="ParentPortalViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="O5U-ID-EEZ"/>
                         <viewControllerLayoutGuide type="bottom" id="ts8-b0-aON"/>
@@ -269,10 +269,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="parentPortalView" destination="xkt-qg-TEA" id="xS7-y2-HME"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uoq-yl-8PS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1955" y="1607"/>
+            <point key="canvasLocation" x="1954" y="1610"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="yKM-c0-lBq">

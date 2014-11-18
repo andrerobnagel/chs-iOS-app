@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6508B4BA1A19A50400776182 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6508B4B91A19A50400776182 /* ContactViewController.m */; };
+		6508B4BD1A1BE93A00776182 /* ParentPortalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6508B4BC1A1BE93900776182 /* ParentPortalViewController.m */; };
 		657CA0CF1A1810F200CEC044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0CE1A1810F200CEC044 /* main.m */; };
 		657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D11A1810F200CEC044 /* AppDelegate.m */; };
 		657CA0D51A1810F200CEC044 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D41A1810F200CEC044 /* HomeViewController.m */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		6508B4B81A19A50400776182 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		6508B4B91A19A50400776182 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		6508B4BB1A1BE93900776182 /* ParentPortalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPortalViewController.h; sourceTree = "<group>"; };
+		6508B4BC1A1BE93900776182 /* ParentPortalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentPortalViewController.m; sourceTree = "<group>"; };
 		657CA0C91A1810F200CEC044 /* RebelNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		657CA0CD1A1810F200CEC044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657CA0CE1A1810F200CEC044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				657CA0CC1A1810F200CEC044 /* Supporting Files */,
 				6508B4B81A19A50400776182 /* ContactViewController.h */,
 				6508B4B91A19A50400776182 /* ContactViewController.m */,
+				6508B4BB1A1BE93900776182 /* ParentPortalViewController.h */,
+				6508B4BC1A1BE93900776182 /* ParentPortalViewController.m */,
 			);
 			path = RebelNet;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			files = (
 				657CA0D51A1810F200CEC044 /* HomeViewController.m in Sources */,
 				6508B4BA1A19A50400776182 /* ContactViewController.m in Sources */,
+				6508B4BD1A1BE93A00776182 /* ParentPortalViewController.m in Sources */,
 				657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */,
 				657CA0CF1A1810F200CEC044 /* main.m in Sources */,
 			);
