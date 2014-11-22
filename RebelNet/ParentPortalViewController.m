@@ -21,6 +21,8 @@
 //Load the login page for Parent Portal.
 - (void) viewWillAppear: (BOOL) animated {
 	[super viewWillAppear: animated];
+	
+	[self setTitle: @"Parent Portal"];
 
 	_parentPortalView.scalesPageToFit = YES;
 	
