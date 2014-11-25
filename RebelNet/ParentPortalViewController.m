@@ -2,8 +2,6 @@
 //  ParentPortalViewController.m
 //  RebelNet
 //
-//  Created by Andre on 11/18/14.
-//
 
 #import "ParentPortalViewController.h"
 

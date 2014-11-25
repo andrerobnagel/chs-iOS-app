@@ -2,8 +2,6 @@
 //  ContactViewController.m
 //  RebelNet
 //
-//  Created by Andre on 11/16/14.
-//
 
 #import "ContactViewController.h"
 

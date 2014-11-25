@@ -2,13 +2,15 @@
 //  ScheduleCell.m
 //  RebelNet
 //
-//  Created by Andre on 11/18/14.
-//
 
 #import "ScheduleCell.h"
 
+@interface ScheduleCell()
+
+@end
+
+
+
 @implementation ScheduleCell
-
-
 
 @end

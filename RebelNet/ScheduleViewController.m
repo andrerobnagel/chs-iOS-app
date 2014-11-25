@@ -2,14 +2,11 @@
 //  ScheduleViewController.m
 //  RebelNet
 //
-//  Created by Andre on 11/18/14.
-//
 
 #import "ScheduleViewController.h"
 #import "ScheduleCell.h"
 #import "PeriodViewController.h"
-
-#define NUM_PERIODS 8
+#import "PeriodStore.h"
 
 @interface ScheduleViewController()
 
@@ -36,6 +33,13 @@
 }
 
 
+//Just reload the data every time the table view appears, because if the user updates a period in the periodView screen, we want the table to reflect that.
+//TODO: Find a more efficient way of doing this that only updates the tableView when something is changed
+- (void) viewDidAppear: (BOOL) animated {
+	[_scheduleView reloadData];
+}
+
+
 #pragma mark - Table view data sources
 
 
@@ -49,16 +53,71 @@
 													 forIndexPath: indexPath
 					  ];
 	
+	Period *cellPeriod = [[PeriodStore sharedStore] periodAtIndex: indexPath.row];
+
+
+	//Color code the table cells and text according to the type of day it is
+	if (cellPeriod.periodNumber % 2 == 1) {
+		cell.backgroundColor = REBELBLUE(1.0);
+
+		cell.classPeriodLabel.textColor = [UIColor whiteColor];
+		cell.classNameLabel.textColor = [UIColor whiteColor];
+		cell.classroomLabel.textColor = [UIColor whiteColor];
+
+		//Change the default "selected" color to a lighter blue to prevent ugliness
+		UIView *backView = [[UIView alloc] initWithFrame: cell.frame];
+		backView.backgroundColor = [UIColor colorWithRed: 0.2549 green: 0.3490 blue: 0.5725 alpha: 1.0];
+		cell.selectedBackgroundView = backView;
+	} else {
+		cell.backgroundColor = REBELSILVER(1.0);
+	}
+	
+	cell.classPeriodLabel.text = [NSString stringWithFormat: @"Period %lu", (unsigned long)cellPeriod.periodNumber];
+	cell.classroomLabel.text = cellPeriod.classroom;
+
+	//Truncate class names so we don't have text fields overlapping
+	if ([cellPeriod.className length] > 22)
+		cell.classNameLabel.text = [NSString stringWithFormat: @"%@...", [cellPeriod.className substringToIndex: 22]];
+	else
+		cell.classNameLabel.text = cellPeriod.className;
+
+
 	return cell;
 }
 
 
 #pragma mark - Actions
 
+
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
 	PeriodViewController *periodViewController = [PeriodViewController new];
+
+	//Add one because we are setting the period, and the index row is zero-based
+	periodViewController.period = [[PeriodStore sharedStore] periodAtIndex: indexPath.row];
 	
 	[self.navigationController pushViewController: periodViewController animated: YES];
+}
+
+
+//Show a dialog box making sure the user wants to clear their schedule
+- (IBAction) clearSchedule: (id) sender {
+	UIAlertView *clearScheduleConfirmation = [[UIAlertView alloc] initWithTitle: @"Confirm"
+													message: @"Are you sure you want to clear your schedule?"
+												   delegate: self
+										  cancelButtonTitle: @"No"
+										  otherButtonTitles: @"Yes", nil
+						];
+	[clearScheduleConfirmation show];
+}
+
+
+- (void) alertView: (UIAlertView *) alertView clickedButtonAtIndex: (NSInteger) buttonIndex {
+	//Here's where the actual clearing occurs when the user selects "clear"
+	if (buttonIndex == 1){
+		[[PeriodStore sharedStore] clearSchedule];
+		[[PeriodStore sharedStore] saveChanges];
+		[_scheduleView reloadData];
+	}
 }
 
 @end
