@@ -2,10 +2,9 @@
 //  ParentPortalViewController.h
 //  RebelNet
 //
-//  Created by Andre on 11/18/14.
-//
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
 
 @interface ParentPortalViewController: UIViewController
 

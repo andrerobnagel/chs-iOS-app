@@ -2,8 +2,6 @@
 //  ContactViewController.m
 //  RebelNet
 //
-//  Created by Andre on 11/16/14.
-//
 
 #import "ContactViewController.h"
 
@@ -44,7 +42,7 @@
 	
 	//Since everything is a label, we check if the touched point is in the frame of each label and then decide what to do
 	if (CGRectContainsPoint(_addressLabel.frame, touchPoint) || CGRectContainsPoint(_addressLabel2.frame, touchPoint))
-		//Open up the link in Google Maps in the default web browser
+		//Open up the address in Google Maps in the default web browser
 		[[UIApplication sharedApplication] openURL: [NSURL URLWithString: @"https://www.google.com/maps/place/Columbine+High+School/@39.603839,-105.074107,17z/data=!3m1!4b1!4m2!3m1!1s0x876b7e54994696c9:0xbc76791a6becf6b7"]];
 		
 	else if (CGRectContainsPoint(_mainOfficeNumberLabel.frame, touchPoint))

@@ -2,8 +2,6 @@
 //  ParentPortalViewController.m
 //  RebelNet
 //
-//  Created by Andre on 11/18/14.
-//
 
 #import "ParentPortalViewController.h"
 
@@ -21,6 +19,8 @@
 //Load the login page for Parent Portal.
 - (void) viewWillAppear: (BOOL) animated {
 	[super viewWillAppear: animated];
+	
+	[self setTitle: @"Parent Portal"];
 
 	_parentPortalView.scalesPageToFit = YES;
 	

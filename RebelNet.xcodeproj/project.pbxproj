@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6508B4BA1A19A50400776182 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6508B4B91A19A50400776182 /* ContactViewController.m */; };
 		6508B4BD1A1BE93A00776182 /* ParentPortalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6508B4BC1A1BE93900776182 /* ParentPortalViewController.m */; };
+		652A8D911A1C475700162085 /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652A8D901A1C475700162085 /* ScheduleCell.xib */; };
 		657CA0CF1A1810F200CEC044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0CE1A1810F200CEC044 /* main.m */; };
 		657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D11A1810F200CEC044 /* AppDelegate.m */; };
 		657CA0D51A1810F200CEC044 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D41A1810F200CEC044 /* HomeViewController.m */; };
@@ -16,6 +17,12 @@
 		657CA0DA1A1810F200CEC044 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0D91A1810F200CEC044 /* Images.xcassets */; };
 		657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0DB1A1810F200CEC044 /* LaunchScreen.xib */; };
 		657CA0E91A1810F200CEC044 /* RebelNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0E81A1810F200CEC044 /* RebelNetTests.m */; };
+		65A0BE0A1A1DA18900DF297D /* PeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A0BE091A1DA18900DF297D /* PeriodViewController.m */; };
+		65A0BE0C1A1DA21300DF297D /* PeriodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A0BE0B1A1DA21300DF297D /* PeriodView.xib */; };
+		65D1B5B71A216492001BF782 /* PeriodStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D1B5B61A216492001BF782 /* PeriodStore.m */; };
+		65D1B5BA1A2176F5001BF782 /* Period.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D1B5B91A2176F5001BF782 /* Period.m */; };
+		65DF180C1A1BF940004CE286 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF180B1A1BF940004CE286 /* ScheduleViewController.m */; };
+		65DF18111A1C1F51004CE286 /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF18101A1C1F51004CE286 /* ScheduleCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,7 @@
 		6508B4B91A19A50400776182 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		6508B4BB1A1BE93900776182 /* ParentPortalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPortalViewController.h; sourceTree = "<group>"; };
 		6508B4BC1A1BE93900776182 /* ParentPortalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentPortalViewController.m; sourceTree = "<group>"; };
+		652A8D901A1C475700162085 /* ScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleCell.xib; sourceTree = "<group>"; };
 		657CA0C91A1810F200CEC044 /* RebelNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		657CA0CD1A1810F200CEC044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657CA0CE1A1810F200CEC044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +54,18 @@
 		657CA0E21A1810F200CEC044 /* RebelNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebelNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		657CA0E71A1810F200CEC044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657CA0E81A1810F200CEC044 /* RebelNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RebelNetTests.m; sourceTree = "<group>"; };
+		65A0BE081A1DA18900DF297D /* PeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodViewController.h; sourceTree = "<group>"; };
+		65A0BE091A1DA18900DF297D /* PeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodViewController.m; sourceTree = "<group>"; };
+		65A0BE0B1A1DA21300DF297D /* PeriodView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriodView.xib; sourceTree = "<group>"; };
+		65D1B5B51A216492001BF782 /* PeriodStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodStore.h; sourceTree = "<group>"; };
+		65D1B5B61A216492001BF782 /* PeriodStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodStore.m; sourceTree = "<group>"; };
+		65D1B5B81A2176F5001BF782 /* Period.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Period.h; sourceTree = "<group>"; };
+		65D1B5B91A2176F5001BF782 /* Period.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Period.m; sourceTree = "<group>"; };
+		65D1B5BB1A2255E9001BF782 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		65DF180A1A1BF940004CE286 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		65DF180B1A1BF940004CE286 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		65DF180F1A1C1F51004CE286 /* ScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleCell.h; sourceTree = "<group>"; };
+		65DF18101A1C1F51004CE286 /* ScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,19 @@
 				6508B4B91A19A50400776182 /* ContactViewController.m */,
 				6508B4BB1A1BE93900776182 /* ParentPortalViewController.h */,
 				6508B4BC1A1BE93900776182 /* ParentPortalViewController.m */,
+				65DF180A1A1BF940004CE286 /* ScheduleViewController.h */,
+				65DF180B1A1BF940004CE286 /* ScheduleViewController.m */,
+				65DF180F1A1C1F51004CE286 /* ScheduleCell.h */,
+				65DF18101A1C1F51004CE286 /* ScheduleCell.m */,
+				652A8D901A1C475700162085 /* ScheduleCell.xib */,
+				65A0BE081A1DA18900DF297D /* PeriodViewController.h */,
+				65A0BE091A1DA18900DF297D /* PeriodViewController.m */,
+				65A0BE0B1A1DA21300DF297D /* PeriodView.xib */,
+				65D1B5B51A216492001BF782 /* PeriodStore.h */,
+				65D1B5B61A216492001BF782 /* PeriodStore.m */,
+				65D1B5B81A2176F5001BF782 /* Period.h */,
+				65D1B5B91A2176F5001BF782 /* Period.m */,
+				65D1B5BB1A2255E9001BF782 /* Constants.h */,
 			);
 			path = RebelNet;
 			sourceTree = "<group>";
@@ -209,8 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A0BE0C1A1DA21300DF297D /* PeriodView.xib in Resources */,
 				657CA0D81A1810F200CEC044 /* Main.storyboard in Resources */,
 				657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */,
+				652A8D911A1C475700162085 /* ScheduleCell.xib in Resources */,
 				657CA0DA1A1810F200CEC044 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,8 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D1B5B71A216492001BF782 /* PeriodStore.m in Sources */,
 				657CA0D51A1810F200CEC044 /* HomeViewController.m in Sources */,
+				65DF18111A1C1F51004CE286 /* ScheduleCell.m in Sources */,
+				65DF180C1A1BF940004CE286 /* ScheduleViewController.m in Sources */,
+				65A0BE0A1A1DA18900DF297D /* PeriodViewController.m in Sources */,
 				6508B4BA1A19A50400776182 /* ContactViewController.m in Sources */,
+				65D1B5BA1A2176F5001BF782 /* Period.m in Sources */,
 				6508B4BD1A1BE93A00776182 /* ParentPortalViewController.m in Sources */,
 				657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */,
 				657CA0CF1A1810F200CEC044 /* main.m in Sources */,
