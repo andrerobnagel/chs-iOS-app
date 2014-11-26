@@ -19,6 +19,7 @@
 		657CA0E91A1810F200CEC044 /* RebelNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0E81A1810F200CEC044 /* RebelNetTests.m */; };
 		65A0BE0A1A1DA18900DF297D /* PeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A0BE091A1DA18900DF297D /* PeriodViewController.m */; };
 		65A0BE0C1A1DA21300DF297D /* PeriodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A0BE0B1A1DA21300DF297D /* PeriodView.xib */; };
+		65D0E1C91A25E96D00DA892E /* Rebel base logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0E1C81A25E96D00DA892E /* Rebel base logo.png */; };
 		65D1B5B71A216492001BF782 /* PeriodStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D1B5B61A216492001BF782 /* PeriodStore.m */; };
 		65D1B5BA1A2176F5001BF782 /* Period.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D1B5B91A2176F5001BF782 /* Period.m */; };
 		65DF180C1A1BF940004CE286 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DF180B1A1BF940004CE286 /* ScheduleViewController.m */; };
@@ -57,6 +58,7 @@
 		65A0BE081A1DA18900DF297D /* PeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodViewController.h; sourceTree = "<group>"; };
 		65A0BE091A1DA18900DF297D /* PeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodViewController.m; sourceTree = "<group>"; };
 		65A0BE0B1A1DA21300DF297D /* PeriodView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriodView.xib; sourceTree = "<group>"; };
+		65D0E1C81A25E96D00DA892E /* Rebel base logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rebel base logo.png"; sourceTree = "<group>"; };
 		65D1B5B51A216492001BF782 /* PeriodStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodStore.h; sourceTree = "<group>"; };
 		65D1B5B61A216492001BF782 /* PeriodStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodStore.m; sourceTree = "<group>"; };
 		65D1B5B81A2176F5001BF782 /* Period.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Period.h; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				65D1B5B81A2176F5001BF782 /* Period.h */,
 				65D1B5B91A2176F5001BF782 /* Period.m */,
 				65D1B5BB1A2255E9001BF782 /* Constants.h */,
+				65D0E1C51A25E0FC00DA892E /* Images */,
 			);
 			path = RebelNet;
 			sourceTree = "<group>";
@@ -160,6 +163,14 @@
 				657CA0E71A1810F200CEC044 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65D0E1C51A25E0FC00DA892E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				65D0E1C81A25E96D00DA892E /* Rebel base logo.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 				657CA0D81A1810F200CEC044 /* Main.storyboard in Resources */,
 				657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */,
 				652A8D911A1C475700162085 /* ScheduleCell.xib in Resources */,
+				65D0E1C91A25E96D00DA892E /* Rebel base logo.png in Resources */,
 				657CA0DA1A1810F200CEC044 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
