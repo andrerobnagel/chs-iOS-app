@@ -154,14 +154,14 @@
         <scene sceneID="tpn-Zm-iCH">
             <objects>
                 <tableViewController id="hfG-vz-1qx" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CXP-dt-Ggs">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CXP-dt-Ggs">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="amE-5B-IyZ">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ehx-Lx-m1H" rowHeight="60" style="IBUITableViewCellStyleDefault" id="C49-nu-uGg">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="ehx-Lx-m1H" imageView="8bD-EL-Pmh" rowHeight="60" style="IBUITableViewCellStyleDefault" id="C49-nu-uGg">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C49-nu-uGg" id="9t7-dR-g77">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -172,13 +172,16 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glyphicon_parents.png" id="8bD-EL-Pmh">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="vAf-zh-S4j" kind="show" id="X4h-91-PDx"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="0cC-Hz-M73" rowHeight="60" style="IBUITableViewCellStyleDefault" id="1hp-7k-Kcq">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="0cC-Hz-M73" imageView="1Jz-Xp-jzA" rowHeight="60" style="IBUITableViewCellStyleDefault" id="1hp-7k-Kcq">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1hp-7k-Kcq" id="Waw-fZ-5W1">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -189,13 +192,16 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glyphicon_calendar.png" id="1Jz-Xp-jzA">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="91o-Yf-ctt" kind="show" id="Qld-tQ-90N"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="wu1-9l-fWZ" rowHeight="60" style="IBUITableViewCellStyleDefault" id="ZcU-1D-iBM">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="wu1-9l-fWZ" imageView="uPX-XS-dq1" rowHeight="60" style="IBUITableViewCellStyleDefault" id="ZcU-1D-iBM">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZcU-1D-iBM" id="Xqo-8B-NFN">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -206,13 +212,16 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glyphicon_list.png" id="uPX-XS-dq1">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="VLF-FP-D3g" kind="show" id="bg9-2F-Zhm"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="8I8-Kn-uHx" rowHeight="60" style="IBUITableViewCellStyleDefault" id="peS-Uz-NVw">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="8I8-Kn-uHx" imageView="HFW-nl-skh" rowHeight="60" style="IBUITableViewCellStyleDefault" id="peS-Uz-NVw">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="peS-Uz-NVw" id="Fwk-DM-bWc">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -223,6 +232,9 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glyphicon_global.png" id="HFW-nl-skh">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -440,10 +452,10 @@
             </objects>
             <point key="canvasLocation" x="1751" y="-1097"/>
         </scene>
-        <!--HomeViewController-->
+        <!--Navigation Controller-->
         <scene sceneID="BWc-W9-pp6">
             <objects>
-                <navigationController title="HomeViewController" id="K1J-sm-DMD" sceneMemberID="viewController">
+                <navigationController id="K1J-sm-DMD" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ugI-Wc-vDa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -457,4 +469,10 @@
             <point key="canvasLocation" x="651" y="482"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="glyphicon_calendar.png" width="23" height="24"/>
+        <image name="glyphicon_global.png" width="24" height="24"/>
+        <image name="glyphicon_list.png" width="24" height="21"/>
+        <image name="glyphicon_parents.png" width="32" height="22"/>
+    </resources>
 </document>
