@@ -10,9 +10,6 @@
 
 @interface PeriodStore: NSObject
 
-@property (nonatomic, readonly) NSArray *allItems;
-
-
 + (instancetype) sharedStore;
 - (void) editPeriod: (NSUInteger) period newName: (NSString *) name newRoom: (NSString *) room;
 - (Period *) periodAtIndex: (NSUInteger) index;

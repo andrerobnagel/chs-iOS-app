@@ -18,6 +18,15 @@
 		657883D91A260F3600D53B9A /* glyphicon_parents@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 657883D71A260F3600D53B9A /* glyphicon_parents@2x.png */; };
 		657883DC1A260FD800D53B9A /* glyphicon_global.png in Resources */ = {isa = PBXBuildFile; fileRef = 657883DA1A260FD800D53B9A /* glyphicon_global.png */; };
 		657883DD1A260FD800D53B9A /* glyphicon_global@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 657883DB1A260FD800D53B9A /* glyphicon_global@2x.png */; };
+		657883F01A26DF2500D53B9A /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 657883EB1A26DF2500D53B9A /* TFHpple.m */; };
+		657883F11A26DF2500D53B9A /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 657883ED1A26DF2500D53B9A /* TFHppleElement.m */; };
+		657883F41A26E07D00D53B9A /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 657883F31A26E07D00D53B9A /* libxml2.2.dylib */; };
+		657883F71A26E09F00D53B9A /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 657883F61A26E09F00D53B9A /* XPathQuery.m */; };
+		657883FA1A26E82E00D53B9A /* StaffStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 657883F91A26E82E00D53B9A /* StaffStore.m */; };
+		657883FD1A26E86D00D53B9A /* Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 657883FC1A26E86D00D53B9A /* Staff.m */; };
+		657884001A28E77A00D53B9A /* StaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657883FF1A28E77A00D53B9A /* StaffViewController.m */; };
+		657884041A2AC5FF00D53B9A /* TeacherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657884021A2AC5FF00D53B9A /* TeacherInfoViewController.m */; };
+		657884051A2AC5FF00D53B9A /* TeacherInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657884031A2AC5FF00D53B9A /* TeacherInfoViewController.xib */; };
 		657CA0CF1A1810F200CEC044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0CE1A1810F200CEC044 /* main.m */; };
 		657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D11A1810F200CEC044 /* AppDelegate.m */; };
 		657CA0D81A1810F200CEC044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0D61A1810F200CEC044 /* Main.storyboard */; };
@@ -57,6 +66,23 @@
 		657883D71A260F3600D53B9A /* glyphicon_parents@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicon_parents@2x.png"; sourceTree = "<group>"; };
 		657883DA1A260FD800D53B9A /* glyphicon_global.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicon_global.png; sourceTree = "<group>"; };
 		657883DB1A260FD800D53B9A /* glyphicon_global@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicon_global@2x.png"; sourceTree = "<group>"; };
+		657883E81A26DDDB00D53B9A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		657883EA1A26DF2500D53B9A /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		657883EB1A26DF2500D53B9A /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		657883EC1A26DF2500D53B9A /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		657883ED1A26DF2500D53B9A /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		657883F31A26E07D00D53B9A /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		657883F51A26E09F00D53B9A /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = "../../../../../Downloads/hpple-master/XPathQuery.h"; sourceTree = "<group>"; };
+		657883F61A26E09F00D53B9A /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = "../../../../../Downloads/hpple-master/XPathQuery.m"; sourceTree = "<group>"; };
+		657883F81A26E82E00D53B9A /* StaffStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaffStore.h; sourceTree = "<group>"; };
+		657883F91A26E82E00D53B9A /* StaffStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaffStore.m; sourceTree = "<group>"; };
+		657883FB1A26E86D00D53B9A /* Staff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Staff.h; sourceTree = "<group>"; };
+		657883FC1A26E86D00D53B9A /* Staff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Staff.m; sourceTree = "<group>"; };
+		657883FE1A28E77A00D53B9A /* StaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaffViewController.h; sourceTree = "<group>"; };
+		657883FF1A28E77A00D53B9A /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaffViewController.m; sourceTree = "<group>"; };
+		657884011A2AC5FF00D53B9A /* TeacherInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherInfoViewController.h; sourceTree = "<group>"; };
+		657884021A2AC5FF00D53B9A /* TeacherInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherInfoViewController.m; sourceTree = "<group>"; };
+		657884031A2AC5FF00D53B9A /* TeacherInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherInfoViewController.xib; sourceTree = "<group>"; };
 		657CA0C91A1810F200CEC044 /* RebelNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		657CA0CD1A1810F200CEC044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657CA0CE1A1810F200CEC044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657883F41A26E07D00D53B9A /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +131,8 @@
 		657883C51A25F63D00D53B9A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				657883FE1A28E77A00D53B9A /* StaffViewController.h */,
+				657883FF1A28E77A00D53B9A /* StaffViewController.m */,
 				6508B4B81A19A50400776182 /* ContactViewController.h */,
 				6508B4B91A19A50400776182 /* ContactViewController.m */,
 				6508B4BB1A1BE93900776182 /* ParentPortalViewController.h */,
@@ -123,6 +152,10 @@
 				65D1B5B61A216492001BF782 /* PeriodStore.m */,
 				65D1B5B81A2176F5001BF782 /* Period.h */,
 				65D1B5B91A2176F5001BF782 /* Period.m */,
+				657883F81A26E82E00D53B9A /* StaffStore.h */,
+				657883F91A26E82E00D53B9A /* StaffStore.m */,
+				657883FB1A26E86D00D53B9A /* Staff.h */,
+				657883FC1A26E86D00D53B9A /* Staff.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -134,13 +167,31 @@
 				65DF18101A1C1F51004CE286 /* ScheduleCell.m */,
 				652A8D901A1C475700162085 /* ScheduleCell.xib */,
 				65A0BE0B1A1DA21300DF297D /* PeriodView.xib */,
+				657884011A2AC5FF00D53B9A /* TeacherInfoViewController.h */,
+				657884021A2AC5FF00D53B9A /* TeacherInfoViewController.m */,
+				657884031A2AC5FF00D53B9A /* TeacherInfoViewController.xib */,
 			);
 			name = "XIBs And Owners";
+			sourceTree = "<group>";
+		};
+		657883DE1A26DC0100D53B9A /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				657883F51A26E09F00D53B9A /* XPathQuery.h */,
+				657883F61A26E09F00D53B9A /* XPathQuery.m */,
+				657883EA1A26DF2500D53B9A /* TFHpple.h */,
+				657883EB1A26DF2500D53B9A /* TFHpple.m */,
+				657883EC1A26DF2500D53B9A /* TFHppleElement.h */,
+				657883ED1A26DF2500D53B9A /* TFHppleElement.m */,
+			);
+			name = Hpple;
 			sourceTree = "<group>";
 		};
 		657CA0C01A1810F200CEC044 = {
 			isa = PBXGroup;
 			children = (
+				657883F31A26E07D00D53B9A /* libxml2.2.dylib */,
+				657883E81A26DDDB00D53B9A /* libxml2.dylib */,
 				657CA0CB1A1810F200CEC044 /* RebelNet */,
 				657CA0E51A1810F200CEC044 /* RebelNetTests */,
 				657CA0CA1A1810F200CEC044 /* Products */,
@@ -170,6 +221,7 @@
 				657883C81A25FA3800D53B9A /* XIBs And Owners */,
 				657883C71A25F70300D53B9A /* Objects */,
 				65D0E1C51A25E0FC00DA892E /* Images */,
+				657883DE1A26DC0100D53B9A /* Hpple */,
 			);
 			path = RebelNet;
 			sourceTree = "<group>";
@@ -301,6 +353,7 @@
 				657883D81A260F3600D53B9A /* glyphicon_parents.png in Resources */,
 				657883D91A260F3600D53B9A /* glyphicon_parents@2x.png in Resources */,
 				657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */,
+				657884051A2AC5FF00D53B9A /* TeacherInfoViewController.xib in Resources */,
 				657883DD1A260FD800D53B9A /* glyphicon_global@2x.png in Resources */,
 				657883D41A260E5700D53B9A /* glyphicon_list.png in Resources */,
 				652A8D911A1C475700162085 /* ScheduleCell.xib in Resources */,
@@ -328,14 +381,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D1B5B71A216492001BF782 /* PeriodStore.m in Sources */,
+				657884001A28E77A00D53B9A /* StaffViewController.m in Sources */,
 				65DF18111A1C1F51004CE286 /* ScheduleCell.m in Sources */,
+				657883FD1A26E86D00D53B9A /* Staff.m in Sources */,
 				65DF180C1A1BF940004CE286 /* ScheduleViewController.m in Sources */,
 				65A0BE0A1A1DA18900DF297D /* PeriodViewController.m in Sources */,
 				6508B4BA1A19A50400776182 /* ContactViewController.m in Sources */,
+				657883F01A26DF2500D53B9A /* TFHpple.m in Sources */,
 				65D1B5BA1A2176F5001BF782 /* Period.m in Sources */,
 				6508B4BD1A1BE93A00776182 /* ParentPortalViewController.m in Sources */,
 				657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */,
 				657CA0CF1A1810F200CEC044 /* main.m in Sources */,
+				657883F71A26E09F00D53B9A /* XPathQuery.m in Sources */,
+				657884041A2AC5FF00D53B9A /* TeacherInfoViewController.m in Sources */,
+				657883FA1A26E82E00D53B9A /* StaffStore.m in Sources */,
+				657883F11A26DF2500D53B9A /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +517,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = RebelNet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -469,6 +534,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = RebelNet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -418,16 +418,16 @@
             </objects>
             <point key="canvasLocation" x="3378" y="1536"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Staff View Controller-->
         <scene sceneID="oyY-Dg-8pD">
             <objects>
-                <tableViewController id="vAf-zh-S4j" sceneMemberID="viewController">
+                <tableViewController id="vAf-zh-S4j" customClass="StaffViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Cql-T2-mrr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="mxD-BA-WHE" style="IBUITableViewCellStyleDefault" id="UHR-kx-wEa">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="mxD-BA-WHE" detailTextLabel="7H8-xi-buc" style="IBUITableViewCellStyleSubtitle" id="UHR-kx-wEa">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UHR-kx-wEa" id="1rz-n4-2Ko">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -435,6 +435,12 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mxD-BA-WHE">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7H8-xi-buc">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>

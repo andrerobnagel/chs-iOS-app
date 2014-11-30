@@ -47,7 +47,6 @@
 	if (self) {
 		NSString *path = [self itemArchivePath];
 		
-		//This takes the file and unarchives it into an object of the type that was encoded; in this case, an NSMutableArray
 		_privatePeriods = [NSKeyedUnarchiver unarchiveObjectWithFile: path];
 		
 		//If the array hadn't been saved previously, create a new one, and fill it with blank periods
@@ -72,7 +71,7 @@
 	
 	//If our index is bad for some reason, do nothing and quietly log the error
 	if (index > [_privatePeriods count]) {
-		NSLog(@"Error: trying to edit period that does not exist (Period %i)", index);
+		NSLog(@"Error: trying to edit period that does not exist (Period %lu)", index);
 	} else {
 		Period *editingPeriod = _privatePeriods[index];
 		editingPeriod.className = name;

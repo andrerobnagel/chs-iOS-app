@@ -38,7 +38,7 @@
 		_classPeriodLabel.textColor = REBELBLUE(1.0);
 	
 	
-	_classPeriodLabel.text = [NSString stringWithFormat: @"Period %i", _period.periodNumber];
+	_classPeriodLabel.text = [NSString stringWithFormat: @"Period %lu", (unsigned long)_period.periodNumber];
 	_classNameField.text = _period.className;
 
 	//If there is a classroom that has been set, set the selected item of the picker to that classroom
@@ -92,12 +92,12 @@ shouldChangeCharactersInRange: (NSRange) range
 - (IBAction) savePeriod: (id) sender {
 	NSInteger selectedClassroomIndex = [_classPicker selectedRowInComponent: 0];
 
-	//If for some reason no selected row is returned, then we will just get the first classroom in the array
+	//If for some reason no selected row is returned, then we will just have no classroom set
 	if (selectedClassroomIndex == -1)
 		selectedClassroomIndex = 0;
 
 
-	NSString *className = [_classNameField.text stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]];
+	NSString *className = TRIM(_classNameField.text);
 	
 	[[PeriodStore sharedStore] editPeriod: _period.periodNumber
 								  newName: className
