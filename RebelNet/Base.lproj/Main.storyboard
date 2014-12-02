@@ -6,6 +6,87 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Teacher Info View Controller-->
+        <scene sceneID="TaV-St-Hnk">
+            <objects>
+                <viewController id="8Vg-R0-Cp2" customClass="TeacherInfoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Tr-wJ-zv0"/>
+                        <viewControllerLayoutGuide type="bottom" id="BIx-tV-UVR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="65p-oC-Yx7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTs-GD-gha">
+                                <rect key="frame" x="16" y="150" width="584" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="584" id="lb1-Y6-Cp2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGy-BZ-V0j">
+                                <rect key="frame" x="16" y="211" width="584" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="584" id="hpx-QR-Ohm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tW5-tN-6DZ">
+                                <rect key="frame" x="16" y="269" width="584" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="584" id="moa-Pb-AG2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Staff name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIS-XA-p25">
+                                <rect key="frame" x="249" y="72" width="118.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyj-L4-nuo">
+                                <rect key="frame" x="16" y="331" width="290" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="290" id="87X-os-t4z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dTs-GD-gha" firstAttribute="leading" secondItem="65p-oC-Yx7" secondAttribute="leadingMargin" id="4aQ-iv-FbD"/>
+                            <constraint firstItem="Iyj-L4-nuo" firstAttribute="top" secondItem="tW5-tN-6DZ" secondAttribute="bottom" constant="39" id="4lI-Wt-EST"/>
+                            <constraint firstItem="tW5-tN-6DZ" firstAttribute="leading" secondItem="Iyj-L4-nuo" secondAttribute="leading" id="BCR-Vv-Ob7"/>
+                            <constraint firstItem="TIS-XA-p25" firstAttribute="top" secondItem="1Tr-wJ-zv0" secondAttribute="bottom" constant="8" id="Fy2-pU-azr"/>
+                            <constraint firstItem="tW5-tN-6DZ" firstAttribute="top" secondItem="iGy-BZ-V0j" secondAttribute="bottom" constant="35" id="P9K-cH-4dI"/>
+                            <constraint firstItem="dTs-GD-gha" firstAttribute="top" secondItem="TIS-XA-p25" secondAttribute="bottom" constant="48" id="TPF-hI-PNs"/>
+                            <constraint firstAttribute="centerX" secondItem="TIS-XA-p25" secondAttribute="centerX" constant="-8.25" id="UhX-mw-If7"/>
+                            <constraint firstItem="dTs-GD-gha" firstAttribute="leading" secondItem="iGy-BZ-V0j" secondAttribute="leading" id="Uzj-gB-Gyf"/>
+                            <constraint firstItem="iGy-BZ-V0j" firstAttribute="top" secondItem="dTs-GD-gha" secondAttribute="bottom" constant="38" id="ZlK-T9-Wpj"/>
+                            <constraint firstItem="tW5-tN-6DZ" firstAttribute="leading" secondItem="iGy-BZ-V0j" secondAttribute="leading" id="dqe-Zr-roi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="iGy-BZ-V0j" id="KQe-bl-xkB"/>
+                        <outlet property="nameLabel" destination="TIS-XA-p25" id="9GF-sk-lkb"/>
+                        <outlet property="phoneLabel" destination="tW5-tN-6DZ" id="erM-1E-fAJ"/>
+                        <outlet property="subjectLabel" destination="dTs-GD-gha" id="mUx-m6-cDf"/>
+                        <outlet property="websiteLabel" destination="Iyj-L4-nuo" id="8op-Ip-bBu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ib-5W-Xhw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2493" y="-1572"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="jFP-e2-AI0">
             <objects>
@@ -154,14 +235,14 @@
         <scene sceneID="tpn-Zm-iCH">
             <objects>
                 <tableViewController id="hfG-vz-1qx" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CXP-dt-Ggs">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="CXP-dt-Ggs">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="amE-5B-IyZ">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ehx-Lx-m1H" rowHeight="60" style="IBUITableViewCellStyleDefault" id="C49-nu-uGg">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="ehx-Lx-m1H" imageView="8bD-EL-Pmh" rowHeight="60" style="IBUITableViewCellStyleDefault" id="C49-nu-uGg">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C49-nu-uGg" id="9t7-dR-g77">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -172,13 +253,16 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glyphicon_parents.png" id="8bD-EL-Pmh">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="vAf-zh-S4j" kind="show" id="X4h-91-PDx"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="0cC-Hz-M73" rowHeight="60" style="IBUITableViewCellStyleDefault" id="1hp-7k-Kcq">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="0cC-Hz-M73" imageView="1Jz-Xp-jzA" rowHeight="60" style="IBUITableViewCellStyleDefault" id="1hp-7k-Kcq">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1hp-7k-Kcq" id="Waw-fZ-5W1">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -189,13 +273,16 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glyphicon_calendar.png" id="1Jz-Xp-jzA">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="91o-Yf-ctt" kind="show" id="Qld-tQ-90N"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="wu1-9l-fWZ" rowHeight="60" style="IBUITableViewCellStyleDefault" id="ZcU-1D-iBM">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="wu1-9l-fWZ" imageView="uPX-XS-dq1" rowHeight="60" style="IBUITableViewCellStyleDefault" id="ZcU-1D-iBM">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZcU-1D-iBM" id="Xqo-8B-NFN">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -206,13 +293,16 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glyphicon_list.png" id="uPX-XS-dq1">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="VLF-FP-D3g" kind="show" id="bg9-2F-Zhm"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="8I8-Kn-uHx" rowHeight="60" style="IBUITableViewCellStyleDefault" id="peS-Uz-NVw">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="8I8-Kn-uHx" imageView="HFW-nl-skh" rowHeight="60" style="IBUITableViewCellStyleDefault" id="peS-Uz-NVw">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="peS-Uz-NVw" id="Fwk-DM-bWc">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -223,6 +313,9 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="glyphicon_global.png" id="HFW-nl-skh">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
@@ -406,10 +499,10 @@
             </objects>
             <point key="canvasLocation" x="3378" y="1536"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Staff View Controller-->
         <scene sceneID="oyY-Dg-8pD">
             <objects>
-                <tableViewController id="vAf-zh-S4j" sceneMemberID="viewController">
+                <tableViewController id="vAf-zh-S4j" customClass="StaffViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Cql-T2-mrr">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -428,6 +521,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="8Vg-R0-Cp2" kind="show" identifier="ShowTeacherInfo" id="3Dm-6r-wol"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -440,10 +536,10 @@
             </objects>
             <point key="canvasLocation" x="1751" y="-1097"/>
         </scene>
-        <!--HomeViewController-->
+        <!--Navigation Controller-->
         <scene sceneID="BWc-W9-pp6">
             <objects>
-                <navigationController title="HomeViewController" id="K1J-sm-DMD" sceneMemberID="viewController">
+                <navigationController id="K1J-sm-DMD" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ugI-Wc-vDa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -457,4 +553,10 @@
             <point key="canvasLocation" x="651" y="482"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="glyphicon_calendar.png" width="23" height="24"/>
+        <image name="glyphicon_global.png" width="24" height="24"/>
+        <image name="glyphicon_list.png" width="24" height="21"/>
+        <image name="glyphicon_parents.png" width="32" height="22"/>
+    </resources>
 </document>
