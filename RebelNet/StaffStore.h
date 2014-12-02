@@ -19,5 +19,6 @@
 
 - (NSArray *) allStaff;
 - (NSArray *) allStaffUnderSubject: (NSString *) subject;
+- (BOOL) saveStaffList;
 
 @end

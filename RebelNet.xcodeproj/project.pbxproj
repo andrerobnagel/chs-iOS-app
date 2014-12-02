@@ -26,13 +26,14 @@
 		657883FD1A26E86D00D53B9A /* Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 657883FC1A26E86D00D53B9A /* Staff.m */; };
 		657884001A28E77A00D53B9A /* StaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657883FF1A28E77A00D53B9A /* StaffViewController.m */; };
 		657884041A2AC5FF00D53B9A /* TeacherInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657884021A2AC5FF00D53B9A /* TeacherInfoViewController.m */; };
-		657884051A2AC5FF00D53B9A /* TeacherInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657884031A2AC5FF00D53B9A /* TeacherInfoViewController.xib */; };
 		657CA0CF1A1810F200CEC044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0CE1A1810F200CEC044 /* main.m */; };
 		657CA0D21A1810F200CEC044 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0D11A1810F200CEC044 /* AppDelegate.m */; };
 		657CA0D81A1810F200CEC044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0D61A1810F200CEC044 /* Main.storyboard */; };
 		657CA0DA1A1810F200CEC044 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0D91A1810F200CEC044 /* Images.xcassets */; };
 		657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657CA0DB1A1810F200CEC044 /* LaunchScreen.xib */; };
 		657CA0E91A1810F200CEC044 /* RebelNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0E81A1810F200CEC044 /* RebelNetTests.m */; };
+		658505981A2BE9DA00487901 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658505971A2BE9DA00487901 /* MessageUI.framework */; };
+		6585059A1A2C24B800487901 /* cachedDataMetaValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 658505991A2C24B800487901 /* cachedDataMetaValues.plist */; };
 		65A0BE0A1A1DA18900DF297D /* PeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A0BE091A1DA18900DF297D /* PeriodViewController.m */; };
 		65A0BE0C1A1DA21300DF297D /* PeriodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A0BE0B1A1DA21300DF297D /* PeriodView.xib */; };
 		65D0E1C91A25E96D00DA892E /* Rebel base logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0E1C81A25E96D00DA892E /* Rebel base logo.png */; };
@@ -82,7 +83,6 @@
 		657883FF1A28E77A00D53B9A /* StaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaffViewController.m; sourceTree = "<group>"; };
 		657884011A2AC5FF00D53B9A /* TeacherInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherInfoViewController.h; sourceTree = "<group>"; };
 		657884021A2AC5FF00D53B9A /* TeacherInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherInfoViewController.m; sourceTree = "<group>"; };
-		657884031A2AC5FF00D53B9A /* TeacherInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherInfoViewController.xib; sourceTree = "<group>"; };
 		657CA0C91A1810F200CEC044 /* RebelNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		657CA0CD1A1810F200CEC044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657CA0CE1A1810F200CEC044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +94,8 @@
 		657CA0E21A1810F200CEC044 /* RebelNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebelNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		657CA0E71A1810F200CEC044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		657CA0E81A1810F200CEC044 /* RebelNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RebelNetTests.m; sourceTree = "<group>"; };
+		658505971A2BE9DA00487901 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		658505991A2C24B800487901 /* cachedDataMetaValues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cachedDataMetaValues.plist; sourceTree = "<group>"; };
 		65A0BE081A1DA18900DF297D /* PeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodViewController.h; sourceTree = "<group>"; };
 		65A0BE091A1DA18900DF297D /* PeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodViewController.m; sourceTree = "<group>"; };
 		65A0BE0B1A1DA21300DF297D /* PeriodView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriodView.xib; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658505981A2BE9DA00487901 /* MessageUI.framework in Frameworks */,
 				657883F41A26E07D00D53B9A /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +144,8 @@
 				65DF180B1A1BF940004CE286 /* ScheduleViewController.m */,
 				65A0BE081A1DA18900DF297D /* PeriodViewController.h */,
 				65A0BE091A1DA18900DF297D /* PeriodViewController.m */,
+				657884011A2AC5FF00D53B9A /* TeacherInfoViewController.h */,
+				657884021A2AC5FF00D53B9A /* TeacherInfoViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -167,9 +172,6 @@
 				65DF18101A1C1F51004CE286 /* ScheduleCell.m */,
 				652A8D901A1C475700162085 /* ScheduleCell.xib */,
 				65A0BE0B1A1DA21300DF297D /* PeriodView.xib */,
-				657884011A2AC5FF00D53B9A /* TeacherInfoViewController.h */,
-				657884021A2AC5FF00D53B9A /* TeacherInfoViewController.m */,
-				657884031A2AC5FF00D53B9A /* TeacherInfoViewController.xib */,
 			);
 			name = "XIBs And Owners";
 			sourceTree = "<group>";
@@ -190,6 +192,7 @@
 		657CA0C01A1810F200CEC044 = {
 			isa = PBXGroup;
 			children = (
+				658505971A2BE9DA00487901 /* MessageUI.framework */,
 				657883F31A26E07D00D53B9A /* libxml2.2.dylib */,
 				657883E81A26DDDB00D53B9A /* libxml2.dylib */,
 				657CA0CB1A1810F200CEC044 /* RebelNet */,
@@ -216,6 +219,7 @@
 				657CA0D91A1810F200CEC044 /* Images.xcassets */,
 				657CA0DB1A1810F200CEC044 /* LaunchScreen.xib */,
 				65D1B5BB1A2255E9001BF782 /* Constants.h */,
+				658505991A2C24B800487901 /* cachedDataMetaValues.plist */,
 				657CA0CC1A1810F200CEC044 /* Supporting Files */,
 				657883C51A25F63D00D53B9A /* View Controllers */,
 				657883C81A25FA3800D53B9A /* XIBs And Owners */,
@@ -353,7 +357,7 @@
 				657883D81A260F3600D53B9A /* glyphicon_parents.png in Resources */,
 				657883D91A260F3600D53B9A /* glyphicon_parents@2x.png in Resources */,
 				657CA0DD1A1810F200CEC044 /* LaunchScreen.xib in Resources */,
-				657884051A2AC5FF00D53B9A /* TeacherInfoViewController.xib in Resources */,
+				6585059A1A2C24B800487901 /* cachedDataMetaValues.plist in Resources */,
 				657883DD1A260FD800D53B9A /* glyphicon_global@2x.png in Resources */,
 				657883D41A260E5700D53B9A /* glyphicon_list.png in Resources */,
 				652A8D911A1C475700162085 /* ScheduleCell.xib in Resources */,

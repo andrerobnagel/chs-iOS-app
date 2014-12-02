@@ -100,19 +100,17 @@
 
 - (NSString *) itemArchivePath {
 	//Don't put in Documents/ because it's not worth it to have something this small backed up
-	NSArray *documentDirectories = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-
-	NSString *documentDirectory = [documentDirectories firstObject];
+	NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) firstObject];
 
 	return [documentDirectory stringByAppendingPathComponent: @"periods.archive"];
 }
 
 
--(BOOL) saveChanges {
+- (BOOL) saveChanges {
 	NSString *path = [self itemArchivePath];
 	
 	//Return YES on success
-	return [NSKeyedArchiver archiveRootObject: self.privatePeriods toFile: path];
+	return [NSKeyedArchiver archiveRootObject: _privatePeriods toFile: path];
 }
 
 @end

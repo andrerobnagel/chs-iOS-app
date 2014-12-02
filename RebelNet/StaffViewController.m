@@ -4,6 +4,7 @@
 //
 
 #import "StaffViewController.h"
+#import "TeacherInfoViewController.h"
 #import "StaffStore.h"
 #import "Staff.h"
 
@@ -32,7 +33,6 @@
 	Staff *teacher = teachers[indexPath.row];
 	
 	cell.textLabel.text = [NSString stringWithFormat: @"%@ %@", teacher.fName, teacher.lName];
-	cell.detailTextLabel.text = [Staff subjects][indexPath.section];
 	cell.accessoryType = UITableViewCellAccessoryDetailButton;
 
     return cell;
@@ -60,8 +60,18 @@
 #pragma mark - Actions
 
 
-- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
-	
+- (void) prepareForSegue: (UIStoryboardSegue *) segue sender: (id) sender {
+	if ([@"ShowTeacherInfo" compare: [segue identifier]] == NSOrderedSame) {
+		TeacherInfoViewController *moreTeacherInfo = (TeacherInfoViewController *)[segue destinationViewController];
+
+		//We need to get the indexPath of the ViewCell that was selected, so we can get the teacher information
+		NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+
+		NSArray *teachers = [[StaffStore sharedStore] allStaffUnderSubject: [Staff subjects][selectedIndexPath.section]];
+		Staff *teacher = teachers[selectedIndexPath.row];
+
+		moreTeacherInfo.staff = teacher;
+	}
 }
 
 @end

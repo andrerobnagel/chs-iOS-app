@@ -99,11 +99,18 @@
 
 
 - (NSString *) itemArchivePath {
-	NSArray *documentDirectories = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
-	
-	NSString *documentDirectory = [documentDirectories firstObject];
-	
+	NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)
+								   firstObject
+								   ];
+
 	return [documentDirectory stringByAppendingPathComponent: @"staff.archive"];
+}
+
+
+- (BOOL) saveStaffList {
+	NSString *path = [self itemArchivePath];
+
+	return [NSKeyedArchiver archiveRootObject: _privateStaffArray toFile: path];
 }
 
 @end
