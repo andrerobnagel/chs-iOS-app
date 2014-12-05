@@ -6,8 +6,6 @@
 #ifndef RebelNet_Constants_h
 #define RebelNet_Constants_h
 
-#define NUM_PERIODS 8
-
 
 //Functions
 //We need to trim a lot of strings, so instead of having this mess every time, shorten it
@@ -20,6 +18,7 @@
 
 
 //Values
+#define NUM_PERIODS 8
 #define STAFF_REDOWNLOAD_MONTH 8
 #define STAFF_REDOWNLOAD_DAY 1
 
