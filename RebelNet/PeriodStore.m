@@ -80,6 +80,11 @@
 }
 
 
+- (NSArray *) allPeriods {
+	return _privatePeriods;
+}
+
+
 - (Period *) periodAtIndex: (NSUInteger) index {
 	return _privatePeriods[index];
 }

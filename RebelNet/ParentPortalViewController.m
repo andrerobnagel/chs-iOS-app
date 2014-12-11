@@ -20,10 +20,6 @@
 - (void) viewWillAppear: (BOOL) animated {
 	[super viewWillAppear: animated];
 	
-	[self setTitle: @"Parent Portal"];
-
-	_parentPortalView.scalesPageToFit = YES;
-	
 	NSURLRequest *request = [NSURLRequest requestWithURL: [NSURL URLWithString: @"https://campus.jeffco.k12.co.us/campus/jeffco_IC.jsp"]];
 	[_parentPortalView loadRequest: request];
 }

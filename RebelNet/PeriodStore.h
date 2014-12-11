@@ -11,8 +11,12 @@
 @interface PeriodStore: NSObject
 
 + (instancetype) sharedStore;
+
 - (void) editPeriod: (NSUInteger) period newName: (NSString *) name newRoom: (NSString *) room;
+
+- (NSArray *) allPeriods;
 - (Period *) periodAtIndex: (NSUInteger) index;
+
 - (void) clearSchedule;
 - (BOOL) saveChanges;
 

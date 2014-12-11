@@ -74,13 +74,8 @@
 	
 	cell.classPeriodLabel.text = [NSString stringWithFormat: @"Period %lu", (unsigned long)cellPeriod.periodNumber];
 	cell.classroomLabel.text = cellPeriod.classroom;
-
-	//Truncate class names so we don't have text fields overlapping
-	if ([cellPeriod.className length] > 22)
-		cell.classNameLabel.text = [NSString stringWithFormat: @"%@...", [cellPeriod.className substringToIndex: 22]];
-	else
-		cell.classNameLabel.text = cellPeriod.className;
-
+	
+	cell.classNameLabel.text = cellPeriod.className;
 
 	return cell;
 }

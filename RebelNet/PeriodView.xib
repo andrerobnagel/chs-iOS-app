@@ -37,14 +37,6 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nfZ-E8-ztS">
-                    <rect key="frame" x="72" y="137" width="520" height="30"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                    <connections>
-                        <outlet property="delegate" destination="-1" id="g2k-y7-R0f"/>
-                    </connections>
-                </textField>
                 <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vwH-2B-Sb1">
                     <rect key="frame" x="-8" y="198" width="600" height="162"/>
                     <constraints>
@@ -90,6 +82,14 @@
                         <action selector="savePeriod:" destination="-1" eventType="touchUpInside" id="XdO-VH-QiG"/>
                     </connections>
                 </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nfZ-E8-ztS">
+                    <rect key="frame" x="66" y="137" width="525.5" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="g2k-y7-R0f"/>
+                    </connections>
+                </textField>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
@@ -99,18 +99,18 @@
                 <constraint firstAttribute="centerX" secondItem="vwH-2B-Sb1" secondAttribute="centerX" constant="8" id="FRf-Pk-ed6"/>
                 <constraint firstAttribute="trailing" secondItem="nfZ-E8-ztS" secondAttribute="trailing" constant="8" id="OIM-bZ-cUW"/>
                 <constraint firstAttribute="trailing" secondItem="sfe-1u-Fkd" secondAttribute="trailing" constant="8" id="TCQ-WV-Tbs"/>
+                <constraint firstItem="nfZ-E8-ztS" firstAttribute="leading" secondItem="voN-og-Ehy" secondAttribute="trailing" constant="7.5" id="TR1-26-eJM"/>
                 <constraint firstItem="sfe-1u-Fkd" firstAttribute="top" secondItem="vwH-2B-Sb1" secondAttribute="bottom" constant="8" id="Ta2-Ok-D4F"/>
                 <constraint firstItem="3HF-lb-d3V" firstAttribute="leading" secondItem="Q5v-If-wRs" secondAttribute="leading" constant="8" id="ZjE-C8-DWe"/>
                 <constraint firstAttribute="centerX" secondItem="MSK-Wc-4sv" secondAttribute="centerX" constant="-0.5" id="b5S-pK-0iQ"/>
                 <constraint firstItem="voN-og-Ehy" firstAttribute="leading" secondItem="oBp-G8-5Ec" secondAttribute="leading" id="dC9-Yv-OUs"/>
                 <constraint firstItem="sfe-1u-Fkd" firstAttribute="width" secondItem="3HF-lb-d3V" secondAttribute="width" id="n2N-q7-afx"/>
-                <constraint firstItem="nfZ-E8-ztS" firstAttribute="leading" secondItem="voN-og-Ehy" secondAttribute="trailing" constant="13.5" id="n4t-Yz-CIu"/>
                 <constraint firstItem="3HF-lb-d3V" firstAttribute="top" secondItem="vwH-2B-Sb1" secondAttribute="bottom" constant="8" id="nsS-gX-8Hn"/>
                 <constraint firstItem="MSK-Wc-4sv" firstAttribute="top" secondItem="Q5v-If-wRs" secondAttribute="top" constant="68" id="oZP-zg-15N"/>
                 <constraint firstItem="voN-og-Ehy" firstAttribute="top" secondItem="MSK-Wc-4sv" secondAttribute="bottom" constant="38" id="xO6-hq-PJy"/>
                 <constraint firstItem="voN-og-Ehy" firstAttribute="leading" secondItem="Q5v-If-wRs" secondAttribute="leading" constant="8" id="xRn-fy-MLc"/>
             </constraints>
-            <point key="canvasLocation" x="488" y="40"/>
+            <point key="canvasLocation" x="488.5" y="40"/>
         </view>
     </objects>
 </document>
