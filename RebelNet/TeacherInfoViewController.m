@@ -28,22 +28,32 @@
 	
 	[self setTitle: @"Teacher info"];
 
+	NSDictionary *underlineAttribute = @{NSUnderlineStyleAttributeName: @(NSUnderlineStyleSingle)};
+	
 	//All staff have a name, subject, and email
 	_nameLabel.text = [NSString stringWithFormat: @"%@ %@", _staff.fName, _staff.lName];
 	_subjectLabel.text = [NSString stringWithFormat: @"Subject: %@", _staff.subject];
-	_emailLabel.text = [NSString stringWithFormat: @"Email: %@", _staff.email];
+	_emailLabel.attributedText = [[NSAttributedString alloc] initWithString:
+								  [NSString stringWithFormat: @"Email: %@", _staff.email]
+																 attributes: underlineAttribute
+								  ];
 	
 
 	//Some staff members may not have phone numbers or websites. If they don't have one, display a message saying "No x".
 	//I would just make the label invisible, but then there will be a giant blank space
 	if ([_staff.phone length] > 0)
-		_phoneLabel.text = [NSString stringWithFormat: @"Voice mail: %@", _staff.phone];
+		_phoneLabel.attributedText = [[NSAttributedString alloc] initWithString:
+									  [NSString stringWithFormat: @"Voice mail: %@", _staff.phone]
+																	 attributes: underlineAttribute
+									  ];
 	else
 		_phoneLabel.text = @"No voice mail";
 
 
 	if ([[_staff.website absoluteString] length] > 0)
-		_websiteLabel.text = [NSString stringWithFormat: @"Website: %@", [_staff.website absoluteString]];
+		_websiteLabel.attributedText = [[NSAttributedString alloc] initWithString:
+							  [NSString stringWithFormat: @"Website: %@", [_staff.website absoluteString]]
+															 attributes: underlineAttribute];
 	else
 		_websiteLabel.text = @"No website";
 }

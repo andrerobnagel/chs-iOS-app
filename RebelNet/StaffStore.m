@@ -95,6 +95,26 @@
 }
 
 
+//This takes all staff under a certain subject that matches the name search text provided
+- (NSArray *) allStaffUnderSubject: (NSString *) subject withName: (NSString *) name {
+	//If the name is nil or empty, we just return all staff
+	if (name == nil || name.length == 0)
+		return [self allStaffUnderSubject: subject];
+	
+	NSMutableArray *staffUnderSubjectWithName = [NSMutableArray new];
+	
+	for (Staff *staffMember in _privateStaffArray) {
+		if ([staffMember.subject compare: subject] == NSOrderedSame)
+			[staffUnderSubjectWithName addObject: staffMember];
+	}
+
+
+	NSPredicate *searchPredicate = [NSPredicate predicateWithFormat: @"(SELF.fName contains[cd] %@) OR (SELF.lName contains[cd] %@)", name, name];
+	
+	return [staffUnderSubjectWithName filteredArrayUsingPredicate: searchPredicate];
+}
+
+
 #pragma mark - Saving and loading staff
 
 

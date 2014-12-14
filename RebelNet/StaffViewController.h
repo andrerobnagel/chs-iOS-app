@@ -6,6 +6,6 @@
 #import <UIKit/UIKit.h>
 #import "Constants.h"
 
-@interface StaffViewController: UITableViewController
+@interface StaffViewController: UITableViewController <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 
 @end

@@ -30,7 +30,14 @@
 	//Hardcode all of the classrooms, because they probably aren't going to change.
 	//I would load everything from a text file, but it doesn't provide much of a benefit in code cleanliness, and it hurts speed
 	_classrooms = @[
-					@"", @"MA-1", @"LA-1", @"BUS-1", @"WL-1"
+					@"", @"SS-1", @"SS-2", @"SS-3", @"SS-4", @"SS-5", @"SS-6", @"SS-7", @"SS-8", @"SS-9", @"SS-10", @"SS-11",
+					@"MA-1", @"MA-2", @"MA-3", @"MA-4", @"MA-5", @"MA-6", @"MA-7", @"MA-8", @"MA-9", @"MA-10", @"MA-11", @"MA-12", @"MA-13",
+					@"LA-1", @"LA-2", @"LA-3", @"LA-4", @"LA-5", @"LA-6", @"LA-7", @"LA-8", @"LA-9", @"LA-10", @"LA-11", @"LA-12", @"LA-13",
+					@"SCI-1", @"SCI-2", @"SCI-3", @"SCI-4", @"SCI-5", @"SCI-6", @"SCI-7", @"SCI-8", @"SCI-9", @"SCI-10", @"SCI-11", @"SCI-12",
+					@"WL-1", @"WL-2", @"WL-3", @"WL-4", @"WL-5", @"WL-6", @"WL-7",
+					@"BUS-1", @"BUS-2", @"BUS-3", @"BL-4",
+					@"Weight room", @"Gym", @"Drawing", @"Ceramics", @"Art room", @"ACE", @"Wood shop", @"RNN room", @"Publications lab", @"Challenge room", @"SE-1", @"SE-2", @"SE-3",
+					@"Main office", @"Attendance office", @"Athletics office", @"Library", @"PostGrad center", @"Counseling office", @"Lecture room", @"Auditorium"
 					];
 
 	//Change the color of the period label to reflect the type of day. We don't change it for silver days because it doesn't show up. Black is close to silver, right?
