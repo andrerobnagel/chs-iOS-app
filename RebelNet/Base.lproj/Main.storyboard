@@ -106,23 +106,158 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ib-5W-Xhw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2493" y="-1572"/>
+            <point key="canvasLocation" x="2493" y="-1884"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="jFP-e2-AI0">
+        <!--About View Controller-->
+        <scene sceneID="FiS-jM-Knb">
             <objects>
-                <navigationController id="scm-xq-foK" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h2t-nY-Sq5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="qBr-rj-Dwd" kind="relationship" relationship="rootViewController" id="xhx-01-axl"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b3g-16-91h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="xsL-A4-3LC" customClass="AboutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fq5-4X-bFD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xzb-se-JVS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sik-1k-QIB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dQ-0O-ECA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HvY-MU-jfT" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bT-Le-fQ8">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="5Yq-TV-if6"/>
+                                                </constraints>
+                                                <mutableString key="text">Columbine High School opened in 1973 as part of the Jefferson County School District, the largest school district in Colorado. Located near the base of the Rockies, the area provides open space and outdoor recreation in addition to varied metropolitan opportunities. The Columbine attendance area has a population of approximately 50,000 citizens, consisting mainly of professionals. At Columbine High School, we will educate and help all students develop life skills by: Providing a comprehensive and rigorous curriculum that meets the needs and stimulates the interest of all students, and preparing all students to become resourceful and productive citizens who display respect, integrity, accountability, responsibility and compassion.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsI-Aj-gP8">
+                                                <rect key="frame" x="8" y="308" width="116" height="30"/>
+                                                <state key="normal" title="CHS Home page">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewHomePage:" destination="xsL-A4-3LC" eventType="touchUpInside" id="FKV-PX-W9c"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1p-5J-zgT">
+                                                <rect key="frame" x="514" y="308" width="78" height="30"/>
+                                                <state key="normal" title="Test scores">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewTestScores:" destination="xsL-A4-3LC" eventType="touchUpInside" id="bJ9-NT-XYl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVo-gb-bLv">
+                                                <rect key="frame" x="8" y="346" width="100" height="30"/>
+                                                <state key="normal" title="Demographics">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewDemographics:" destination="xsL-A4-3LC" eventType="touchUpInside" id="LBt-SC-vP1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSk-q3-rE2">
+                                                <rect key="frame" x="487" y="346" width="105" height="30"/>
+                                                <state key="normal" title="Feeder schools">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewFeederSchools:" destination="xsL-A4-3LC" eventType="touchUpInside" id="NTy-ds-jk0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOo-0N-r01">
+                                                <rect key="frame" x="8" y="384" width="105" height="30"/>
+                                                <state key="normal" title="CHS Facebook">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewFacebook:" destination="xsL-A4-3LC" eventType="touchUpInside" id="7Wb-fv-VHX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cx8-mo-Bgo">
+                                                <rect key="frame" x="448" y="384" width="144" height="30"/>
+                                                <state key="normal" title="CHS athletics Twitter">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewTwitter:" destination="xsL-A4-3LC" eventType="touchUpInside" id="a6u-j7-uAc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4Y-Zr-i6T">
+                                                <rect key="frame" x="207" y="418" width="186" height="30"/>
+                                                <state key="normal" title="CHS Academic Foundation">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewCHSAF:" destination="xsL-A4-3LC" eventType="touchUpInside" id="T7s-hd-A0a"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cg-ol-FqA">
+                                                <rect key="frame" x="243" y="448" width="115" height="30"/>
+                                                <state key="normal" title="More school info">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewMoreInfo:" destination="xsL-A4-3LC" eventType="touchUpInside" id="JmQ-8U-kXa"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="LsI-Aj-gP8" firstAttribute="top" secondItem="7bT-Le-fQ8" secondAttribute="bottom" constant="8" id="3f4-K3-9xr"/>
+                                            <constraint firstAttribute="trailing" secondItem="X1p-5J-zgT" secondAttribute="trailing" constant="8" id="4cy-86-dVf"/>
+                                            <constraint firstItem="7bT-Le-fQ8" firstAttribute="leading" secondItem="HvY-MU-jfT" secondAttribute="leading" id="5Lx-pJ-GmF"/>
+                                            <constraint firstItem="EVo-gb-bLv" firstAttribute="top" secondItem="LsI-Aj-gP8" secondAttribute="bottom" constant="8" id="6Mx-bU-2qD"/>
+                                            <constraint firstItem="xSk-q3-rE2" firstAttribute="top" secondItem="X1p-5J-zgT" secondAttribute="bottom" constant="8" id="9lW-Ga-Q30"/>
+                                            <constraint firstAttribute="trailing" secondItem="xSk-q3-rE2" secondAttribute="trailing" constant="8" id="AuP-jx-air"/>
+                                            <constraint firstItem="6cg-ol-FqA" firstAttribute="top" secondItem="P4Y-Zr-i6T" secondAttribute="bottom" id="ELw-e1-z0F"/>
+                                            <constraint firstItem="LsI-Aj-gP8" firstAttribute="leading" secondItem="EVo-gb-bLv" secondAttribute="leading" id="FEV-xz-F88"/>
+                                            <constraint firstAttribute="trailing" secondItem="Cx8-mo-Bgo" secondAttribute="trailing" constant="8" id="MVv-rs-SQT"/>
+                                            <constraint firstItem="Cx8-mo-Bgo" firstAttribute="top" secondItem="xSk-q3-rE2" secondAttribute="bottom" constant="8" id="QPN-ec-NQy"/>
+                                            <constraint firstItem="lOo-0N-r01" firstAttribute="leading" secondItem="EVo-gb-bLv" secondAttribute="leading" id="Z8F-4t-Aun"/>
+                                            <constraint firstAttribute="centerX" secondItem="P4Y-Zr-i6T" secondAttribute="centerX" id="azB-En-5Qi"/>
+                                            <constraint firstAttribute="centerX" secondItem="6cg-ol-FqA" secondAttribute="centerX" constant="-0.5" id="bld-Du-1G4"/>
+                                            <constraint firstItem="7bT-Le-fQ8" firstAttribute="top" secondItem="HvY-MU-jfT" secondAttribute="top" id="dT3-6b-qL8"/>
+                                            <constraint firstItem="X1p-5J-zgT" firstAttribute="top" secondItem="7bT-Le-fQ8" secondAttribute="bottom" constant="8" id="eXJ-BL-zAM"/>
+                                            <constraint firstItem="LsI-Aj-gP8" firstAttribute="leading" secondItem="HvY-MU-jfT" secondAttribute="leading" constant="8" id="f6y-Zv-0nW"/>
+                                            <constraint firstAttribute="trailing" secondItem="7bT-Le-fQ8" secondAttribute="trailing" id="rpM-30-muY"/>
+                                            <constraint firstItem="7bT-Le-fQ8" firstAttribute="leading" secondItem="HvY-MU-jfT" secondAttribute="leading" id="tnr-2C-Mtm"/>
+                                            <constraint firstItem="lOo-0N-r01" firstAttribute="top" secondItem="EVo-gb-bLv" secondAttribute="bottom" constant="8" id="uFo-XL-rSd"/>
+                                            <constraint firstItem="P4Y-Zr-i6T" firstAttribute="top" secondItem="lOo-0N-r01" secondAttribute="bottom" constant="4" id="wUe-mB-eE3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="HvY-MU-jfT" firstAttribute="top" secondItem="6dQ-0O-ECA" secondAttribute="top" id="BM7-UX-5fb"/>
+                                    <constraint firstItem="HvY-MU-jfT" firstAttribute="width" secondItem="6dQ-0O-ECA" secondAttribute="width" id="IeE-xP-feI"/>
+                                    <constraint firstAttribute="bottom" secondItem="HvY-MU-jfT" secondAttribute="bottom" id="Pnc-xk-jC4"/>
+                                    <constraint firstItem="HvY-MU-jfT" firstAttribute="height" secondItem="6dQ-0O-ECA" secondAttribute="height" id="ikC-FA-X8C"/>
+                                    <constraint firstItem="HvY-MU-jfT" firstAttribute="leading" secondItem="6dQ-0O-ECA" secondAttribute="leading" id="oUB-87-wB6"/>
+                                    <constraint firstAttribute="trailing" secondItem="HvY-MU-jfT" secondAttribute="trailing" id="rzy-Vh-2E0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6dQ-0O-ECA" secondAttribute="trailing" id="HoH-m6-k5Z"/>
+                            <constraint firstItem="Xzb-se-JVS" firstAttribute="top" secondItem="6dQ-0O-ECA" secondAttribute="bottom" id="JDk-Ft-9SZ"/>
+                            <constraint firstItem="6dQ-0O-ECA" firstAttribute="top" secondItem="Sik-1k-QIB" secondAttribute="top" id="gUJ-MT-5R5"/>
+                            <constraint firstItem="6dQ-0O-ECA" firstAttribute="leading" secondItem="Sik-1k-QIB" secondAttribute="leading" id="vWG-TX-Cbj"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RJr-F4-VIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2493" y="-744"/>
+            <point key="canvasLocation" x="2493" y="-1077"/>
         </scene>
         <!--ContactViewController-->
         <scene sceneID="WuK-BF-rfj">
@@ -165,7 +300,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pny-PW-MEy">
-                                <rect key="frame" x="16" y="170" width="209.5" height="20"/>
+                                <rect key="frame" x="16" y="186" width="209.5" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Main office: ">
                                         <attributes>
@@ -186,7 +321,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CV4-DM-TQv">
-                                <rect key="frame" x="16" y="240" width="229.5" height="20"/>
+                                <rect key="frame" x="16" y="256" width="229.5" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Athletic office: ">
                                         <attributes>
@@ -207,7 +342,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hZ-XT-r6r">
-                                <rect key="frame" x="16" y="279" width="258" height="20"/>
+                                <rect key="frame" x="16" y="294" width="258" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Counseling office: ">
                                         <attributes>
@@ -228,13 +363,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Office hours: 6:30 – 3:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="my6-Wg-ske">
-                                <rect key="frame" x="62" y="307" width="167.5" height="18"/>
+                                <rect key="frame" x="62" y="322" width="167.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNn-qQ-hdH">
-                                <rect key="frame" x="16" y="340" width="240" height="20"/>
+                                <rect key="frame" x="16" y="355" width="240" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Financial office: ">
                                         <attributes>
@@ -255,13 +390,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday: 7:30 – 8:30 AM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIF-EO-pqi">
-                                <rect key="frame" x="64" y="369" width="167.5" height="18"/>
+                                <rect key="frame" x="64" y="384" width="167.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGH-WU-MJ5">
-                                <rect key="frame" x="16" y="436.5" width="154" height="20"/>
+                                <rect key="frame" x="16" y="451" width="154" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Fax: (303)-982-4401">
                                         <attributes>
@@ -274,13 +409,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuesday-Friday: 9:30 – 1:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHZ-Ob-lyL">
-                                <rect key="frame" x="62" y="395" width="189.5" height="18"/>
+                                <rect key="frame" x="62" y="410" width="189.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqP-i3-7wG">
-                                <rect key="frame" x="16" y="203" width="260" height="20"/>
+                                <rect key="frame" x="16" y="219" width="260" height="20"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Attendance office: ">
                                         <attributes>
@@ -300,6 +435,19 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPY-0D-cqX">
+                                <rect key="frame" x="16" y="154" width="250" height="20"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Email: chsrebel@jeffco.k12.co.us">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -308,18 +456,20 @@
                             <constraint firstItem="CV4-DM-TQv" firstAttribute="top" secondItem="bqP-i3-7wG" secondAttribute="bottom" constant="17.5" id="AdN-LN-HCD"/>
                             <constraint firstItem="k3Z-7z-k0w" firstAttribute="top" secondItem="pVf-ME-J6g" secondAttribute="bottom" constant="8" id="AtI-jz-Zx6"/>
                             <constraint firstItem="pny-PW-MEy" firstAttribute="leading" secondItem="Pih-59-5V1" secondAttribute="leadingMargin" id="GDT-Js-YAf"/>
+                            <constraint firstItem="pny-PW-MEy" firstAttribute="top" secondItem="jPY-0D-cqX" secondAttribute="bottom" constant="12" id="GPo-QE-8YF"/>
                             <constraint firstItem="my6-Wg-ske" firstAttribute="top" secondItem="2hZ-XT-r6r" secondAttribute="bottom" constant="8" id="KHj-9b-ZJR"/>
                             <constraint firstItem="pNn-qQ-hdH" firstAttribute="leading" secondItem="2hZ-XT-r6r" secondAttribute="leading" id="SnR-hv-fWT"/>
                             <constraint firstItem="bqP-i3-7wG" firstAttribute="leading" secondItem="pny-PW-MEy" secondAttribute="leading" id="TYK-Mv-aWQ"/>
-                            <constraint firstItem="ZGH-WU-MJ5" firstAttribute="top" secondItem="CHZ-Ob-lyL" secondAttribute="bottom" constant="24" id="UCM-Mg-Sdh"/>
+                            <constraint firstItem="ZGH-WU-MJ5" firstAttribute="top" secondItem="CHZ-Ob-lyL" secondAttribute="bottom" constant="23" id="UCM-Mg-Sdh"/>
+                            <constraint firstItem="jPY-0D-cqX" firstAttribute="top" secondItem="9eR-8c-bz3" secondAttribute="bottom" constant="15.5" id="Vup-j3-U4p"/>
                             <constraint firstItem="ZGH-WU-MJ5" firstAttribute="leading" secondItem="pNn-qQ-hdH" secondAttribute="leading" id="Ydj-09-vLz"/>
+                            <constraint firstItem="jPY-0D-cqX" firstAttribute="leading" secondItem="Pih-59-5V1" secondAttribute="leadingMargin" id="YhV-Mj-K1Y"/>
                             <constraint firstItem="pNn-qQ-hdH" firstAttribute="top" secondItem="my6-Wg-ske" secondAttribute="bottom" constant="15" id="Zzn-YI-4o2"/>
                             <constraint firstItem="2hZ-XT-r6r" firstAttribute="leading" secondItem="CV4-DM-TQv" secondAttribute="leading" id="bhP-c8-s71"/>
                             <constraint firstItem="bqP-i3-7wG" firstAttribute="top" secondItem="pny-PW-MEy" secondAttribute="bottom" constant="12.5" id="bkT-TL-PFD"/>
                             <constraint firstItem="hIF-EO-pqi" firstAttribute="top" secondItem="pNn-qQ-hdH" secondAttribute="bottom" constant="8.5" id="cMx-gd-rbY"/>
                             <constraint firstItem="bqP-i3-7wG" firstAttribute="leading" secondItem="CV4-DM-TQv" secondAttribute="leading" id="eNf-nr-Frq"/>
                             <constraint firstItem="my6-Wg-ske" firstAttribute="leading" secondItem="Pih-59-5V1" secondAttribute="leadingMargin" constant="46" id="eeN-s3-e8m"/>
-                            <constraint firstItem="pny-PW-MEy" firstAttribute="top" secondItem="9eR-8c-bz3" secondAttribute="bottom" constant="31" id="gWh-7p-h3d"/>
                             <constraint firstItem="CHZ-Ob-lyL" firstAttribute="top" secondItem="hIF-EO-pqi" secondAttribute="bottom" constant="8" id="mKl-We-sS9"/>
                             <constraint firstItem="my6-Wg-ske" firstAttribute="leading" secondItem="hIF-EO-pqi" secondAttribute="leading" constant="-2" id="pxS-IH-AQz"/>
                             <constraint firstItem="hIF-EO-pqi" firstAttribute="leading" secondItem="CHZ-Ob-lyL" secondAttribute="leading" constant="2" id="ul0-FE-6Br"/>
@@ -327,19 +477,14 @@
                             <constraint firstItem="9eR-8c-bz3" firstAttribute="centerX" secondItem="k3Z-7z-k0w" secondAttribute="centerX" constant="0.5" id="yhM-KW-U51"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="CHS Contact Information" id="dZo-OG-LYZ">
-                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="waN-XU-BDE">
-                            <connections>
-                                <action selector="dismiss:" destination="qBr-rj-Dwd" id="VZy-Q7-9m4"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="CHS Contact Information" id="dZo-OG-LYZ"/>
                     <connections>
                         <outlet property="addressLabel" destination="k3Z-7z-k0w" id="QIy-Yn-6Ra"/>
                         <outlet property="addressLabel2" destination="9eR-8c-bz3" id="gja-CC-l5C"/>
                         <outlet property="athleticOfficeNumberLabel" destination="CV4-DM-TQv" id="y4L-jz-Mj3"/>
                         <outlet property="attendanceOfficeNumberLabel" destination="bqP-i3-7wG" id="L00-G3-nG9"/>
                         <outlet property="counselingOfficeNumberLabel" destination="2hZ-XT-r6r" id="KHg-Jf-IB5"/>
+                        <outlet property="emailLabel" destination="jPY-0D-cqX" id="pox-tP-u1U"/>
                         <outlet property="financialOfficeNumberLabel" destination="pNn-qQ-hdH" id="AG8-dc-qHS"/>
                         <outlet property="mainOfficeNumberLabel" destination="pny-PW-MEy" id="MSl-8x-8q7"/>
                         <outlet property="mainView" destination="Pih-59-5V1" id="Rbu-xm-qnY"/>
@@ -348,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mD-o9-NZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3378" y="-1326"/>
+            <point key="canvasLocation" x="2493" y="-392"/>
         </scene>
         <!--RebelNet-->
         <scene sceneID="tpn-Zm-iCH">
@@ -450,10 +595,14 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="RebelNet" id="dPb-7q-rYe">
-                        <barButtonItem key="leftBarButtonItem" title="About CHS" id="HAY-Mr-jyt"/>
+                        <barButtonItem key="leftBarButtonItem" title="About CHS" id="HAY-Mr-jyt">
+                            <connections>
+                                <segue destination="xsL-A4-3LC" kind="show" id="u4R-yu-2BA"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Contact" id="zfo-Mi-tyu">
                             <connections>
-                                <segue destination="scm-xq-foK" kind="presentation" id="ob7-id-7rM"/>
+                                <segue destination="qBr-rj-Dwd" kind="show" id="oNk-Mv-rF2"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -488,7 +637,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uoq-yl-8PS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1954" y="1610"/>
+            <point key="canvasLocation" x="1812" y="1712"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="g9y-1z-W61">
@@ -508,7 +657,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBl-YS-ECN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2493" y="27"/>
+            <point key="canvasLocation" x="2493" y="325"/>
         </scene>
         <!--Events-->
         <scene sceneID="GoX-Cg-P4I">
@@ -613,7 +762,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SwS-LN-ths" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2493" y="779"/>
+            <point key="canvasLocation" x="2493" y="1041"/>
         </scene>
         <!--My Schedule-->
         <scene sceneID="XPM-6P-DGO">
@@ -725,7 +874,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1751" y="-1097"/>
+            <point key="canvasLocation" x="1731" y="-1077"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BWc-W9-pp6">

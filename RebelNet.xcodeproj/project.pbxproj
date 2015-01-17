@@ -34,6 +34,7 @@
 		657CA0E91A1810F200CEC044 /* RebelNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657CA0E81A1810F200CEC044 /* RebelNetTests.m */; };
 		658505981A2BE9DA00487901 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658505971A2BE9DA00487901 /* MessageUI.framework */; };
 		6585059A1A2C24B800487901 /* cachedDataMetaValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 658505991A2C24B800487901 /* cachedDataMetaValues.plist */; };
+		659015771A6A12B200FB0D52 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659015761A6A12B200FB0D52 /* AboutViewController.m */; };
 		65A0BE0A1A1DA18900DF297D /* PeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A0BE091A1DA18900DF297D /* PeriodViewController.m */; };
 		65A0BE0C1A1DA21300DF297D /* PeriodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A0BE0B1A1DA21300DF297D /* PeriodView.xib */; };
 		65D0E1C91A25E96D00DA892E /* Rebel base logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0E1C81A25E96D00DA892E /* Rebel base logo.png */; };
@@ -47,7 +48,6 @@
 		65E3C0B61A314D11003C5F99 /* glyphicons_notes_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E3C0B41A314D11003C5F99 /* glyphicons_notes_2@2x.png */; };
 		65E3C0B91A314D3D003C5F99 /* glyphicons_bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E3C0B71A314D3D003C5F99 /* glyphicons_bell.png */; };
 		65E3C0BA1A314D3D003C5F99 /* glyphicons_bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65E3C0B81A314D3D003C5F99 /* glyphicons_bell@2x.png */; };
-		65E3C0C31A316F3E003C5F99 /* BlockCalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3C0C21A316F3E003C5F99 /* BlockCalViewController.m */; };
 		65E3C0CC1A33BE67003C5F99 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3C0CB1A33BE67003C5F99 /* EventsViewController.m */; };
 		65E3C0CF1A33C356003C5F99 /* SportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3C0CE1A33C356003C5F99 /* SportsViewController.m */; };
 		65E3C0D21A33C3FA003C5F99 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E3C0D11A33C3FA003C5F99 /* BlockViewController.m */; };
@@ -108,6 +108,8 @@
 		657CA0E81A1810F200CEC044 /* RebelNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RebelNetTests.m; sourceTree = "<group>"; };
 		658505971A2BE9DA00487901 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		658505991A2C24B800487901 /* cachedDataMetaValues.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cachedDataMetaValues.plist; sourceTree = "<group>"; };
+		659015751A6A12B200FB0D52 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		659015761A6A12B200FB0D52 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		65A0BE081A1DA18900DF297D /* PeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodViewController.h; sourceTree = "<group>"; };
 		65A0BE091A1DA18900DF297D /* PeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodViewController.m; sourceTree = "<group>"; };
 		65A0BE0B1A1DA21300DF297D /* PeriodView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeriodView.xib; sourceTree = "<group>"; };
@@ -127,8 +129,6 @@
 		65E3C0B41A314D11003C5F99 /* glyphicons_notes_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_notes_2@2x.png"; sourceTree = "<group>"; };
 		65E3C0B71A314D3D003C5F99 /* glyphicons_bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_bell.png; sourceTree = "<group>"; };
 		65E3C0B81A314D3D003C5F99 /* glyphicons_bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_bell@2x.png"; sourceTree = "<group>"; };
-		65E3C0C11A316F3E003C5F99 /* BlockCalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockCalViewController.h; sourceTree = "<group>"; };
-		65E3C0C21A316F3E003C5F99 /* BlockCalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockCalViewController.m; sourceTree = "<group>"; };
 		65E3C0CA1A33BE67003C5F99 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
 		65E3C0CB1A33BE67003C5F99 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
 		65E3C0CD1A33C356003C5F99 /* SportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsViewController.h; sourceTree = "<group>"; };
@@ -173,14 +173,14 @@
 				65DF180B1A1BF940004CE286 /* ScheduleViewController.m */,
 				657884011A2AC5FF00D53B9A /* TeacherInfoViewController.h */,
 				657884021A2AC5FF00D53B9A /* TeacherInfoViewController.m */,
-				65E3C0C11A316F3E003C5F99 /* BlockCalViewController.h */,
-				65E3C0C21A316F3E003C5F99 /* BlockCalViewController.m */,
 				65E3C0CA1A33BE67003C5F99 /* EventsViewController.h */,
 				65E3C0CB1A33BE67003C5F99 /* EventsViewController.m */,
 				65E3C0CD1A33C356003C5F99 /* SportsViewController.h */,
 				65E3C0CE1A33C356003C5F99 /* SportsViewController.m */,
 				65E3C0D01A33C3FA003C5F99 /* BlockViewController.h */,
 				65E3C0D11A33C3FA003C5F99 /* BlockViewController.m */,
+				659015751A6A12B200FB0D52 /* AboutViewController.h */,
+				659015761A6A12B200FB0D52 /* AboutViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -440,6 +440,7 @@
 				65D1B5B71A216492001BF782 /* PeriodStore.m in Sources */,
 				657884001A28E77A00D53B9A /* StaffViewController.m in Sources */,
 				65DF18111A1C1F51004CE286 /* ScheduleCell.m in Sources */,
+				659015771A6A12B200FB0D52 /* AboutViewController.m in Sources */,
 				657883FD1A26E86D00D53B9A /* Staff.m in Sources */,
 				65DF180C1A1BF940004CE286 /* ScheduleViewController.m in Sources */,
 				65A0BE0A1A1DA18900DF297D /* PeriodViewController.m in Sources */,
@@ -453,7 +454,6 @@
 				657883F71A26E09F00D53B9A /* XPathQuery.m in Sources */,
 				657884041A2AC5FF00D53B9A /* TeacherInfoViewController.m in Sources */,
 				657883FA1A26E82E00D53B9A /* StaffStore.m in Sources */,
-				65E3C0C31A316F3E003C5F99 /* BlockCalViewController.m in Sources */,
 				657883F11A26DF2500D53B9A /* TFHppleElement.m in Sources */,
 				65E3C0D61A340C62003C5F99 /* HourlyScheduleViewController.m in Sources */,
 				65E3C0D21A33C3FA003C5F99 /* BlockViewController.m in Sources */,
